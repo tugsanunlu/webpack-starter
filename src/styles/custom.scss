@@ -1,0 +1,19 @@
+$body-bg: #fff;
+
+body {
+  background-color: $body-bg;
+}
+
+.foo {
+  .bar {
+    background-color: #eee;
+  }
+}
+
+/* required */
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+/* optional */
+@import "node_modules/bootstrap/scss/alert";
